@@ -21,13 +21,14 @@
 }
 .coffee-list{
   padding: 50px;
+  
  
 }
 
 .searchbar-css{
   padding: 10px;
-  border: currentColor;
-  background-color: rgb(243, 205, 171);
+  border: 2px solid chocolate;
+  background-color: rgb(249, 223, 200);
   border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -58,5 +59,20 @@
     padding: 20px; /* Kenar boşluklarını artır */
     box-sizing: border-box;
   }
+ 
 }
+.title-css{
+  color: rgb(184, 75, 2);
+  background-color: rgb(233, 131, 72);
+  border-radius: 10px;
+  display: inline-block;
+}
+.title{
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
 

@@ -31,11 +31,12 @@ function Coffees() {
   return (
     <div>
       <div className="coffee-list">
-        <h1>Coffee List</h1>
         {searchFilteredCoffee.map((item) => (
           <div key={item.id}>
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
+            <div className="title-css">
+              <h2 className="title">{item.title}</h2>
+            </div>
+            <p className="desc-css">{item.description}</p>
             <p>Ingredients: {item.ingredients.join(", ")}</p>
           </div>
         ))}
