@@ -16,6 +16,10 @@
   outline: 1px solid;
   display: inline-block;
 }
+.coffee-list{
+  padding: 50px;
+ 
+}
 
 .searchbar-css{
   padding: 10px;
