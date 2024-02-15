@@ -1,19 +1,22 @@
 .App {
   text-align: center;
   padding: 20px;
+  background-color: rgb(254, 241, 226);
   
 }
 .kahve-app {
   text-align: left;
-  border: 1px solid black;
+  border: 1px solid chocolate;
   display: flex;
+  background-color: rgb(254, 241, 226);
+  
 }
 .sidebar-css{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  outline: 1px solid;
+  outline: 1px solid chocolate;
   display: inline-block;
 }
 .coffee-list{
@@ -23,17 +26,37 @@
 
 .searchbar-css{
   padding: 10px;
-  border: 1px solid;
+  border: currentColor;
+  background-color: rgb(243, 205, 171);
   border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
   width: 260px;
+  
 }
 .category-css{
   padding: 10px;
+  cursor: pointer;
+ 
+  
 }
 .category-name{
   margin:auto;
   margin-bottom: 3px;
+  
+}
+.selected{
+   color: rgb(184, 75, 2);
+}
+@media (max-width: 768px) {
+  .kahve-app {
+    flex-direction: column; /* Öğeleri sıralı hale getir */
+    align-items: center; /* Öğeleri merkezle */
+  }
+  .sidebar-css {
+    width:100%; /* Genişliği %100'e ayarla */
+    padding: 20px; /* Kenar boşluklarını artır */
+    box-sizing: border-box;
+  }
 }
 
